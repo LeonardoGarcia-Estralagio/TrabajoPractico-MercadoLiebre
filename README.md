@@ -1,12 +1,10 @@
 # Trabajo Practico - Mercado Liebre - Armando la  estructura de un sitio Web
-
-**************************************************************************** 
+ 
 
 ## Desafio 1 - Crear la siguiente estructura de carpetas para trabajar.
 
 <img alt="Estructura de Carpeta" src="./public/img/EstructuraDeCarpeta.png">
 
-*****************************************************************************
 
 ## Desafio 2 - Crear un archivo home.html, el archivo debera tener las siguientes secciones:
 
@@ -82,7 +80,6 @@
 
 <img alt="Mockup del primer Desafio" src="./public/img/mockup-estructuraDeUnSitioWeb-2.png">
 
-************************************************************************************************
 
 ## Desafio 3 - Footer (pie de pagina).
 
