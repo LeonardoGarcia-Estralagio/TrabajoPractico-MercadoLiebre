@@ -4,7 +4,7 @@
 
 ## Desafio 1 - Crear la siguiente estructura de carpetas para trabajar.
 
-<img alt="Estructura de Carpeta" src="/img/EstructuraDeCarpeta.png>
+<img alt="Estructura de Carpeta" src="/public/img/EstructuraDeCarpeta.png"
 
 *****************************************************************************
 
