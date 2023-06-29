@@ -4,7 +4,7 @@
 
 ## Desafio 1 - Crear la siguiente estructura de carpetas para trabajar.
 
-<img alt="Estructura de Carpeta" src="./public/img/EstructuraDeCarpeta.png"
+<img alt="Estructura de Carpeta" src="./public/img/EstructuraDeCarpeta.png">
 
 *****************************************************************************
 
@@ -31,7 +31,7 @@
 **********************************************************************************************
 - Mockup del desafio:
 
-<img alt="Mockup del primer Desafio" src="/img/Mockup-estructuraDeUnSitioWeb.png">    
+<img alt="Mockup del primer Desafio" src="./public/img/Mockup-estructuraDeUnSitioWeb.png">
 
 ***********************************************************************************************
 
@@ -80,7 +80,7 @@
 ************************************************************************************************
 - Mockup del desafio:
 
-<img alt="Mockup del primer Desafio" src="./img/mockup-estructuraDeUnSitioWeb-2.png">
+<img alt="Mockup del primer Desafio" src="./public/img/mockup-estructuraDeUnSitioWeb-2.png">
 
 ************************************************************************************************
 
@@ -104,6 +104,6 @@ porque estás siempre protegid@.
 ************************************************************************************************
 - Mockup del desafio:
 
-<img alt="Mockup del primer Desafio" src="/img/mockup-estructuraDeUnSitioWeb-3.png">
+<img alt="Mockup del primer Desafio" src="./public/img/mockup-estructuraDeUnSitioWeb-3.png">
 
 *************************************************************************************************
