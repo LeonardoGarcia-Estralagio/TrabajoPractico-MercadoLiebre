@@ -1,106 +1,57 @@
-# Trabajo Practico - Mercado Liebre - Armando la  estructura de un sitio Web
- 
+# Trabajo Practico - Mercado Liebre - Agregando Estilos
 
-## Desafio 1 - Crear la siguiente estructura de carpetas para trabajar.
+## Desafío 1 - Darle estilo con CSS al Header
 
-<img alt="Estructura de Carpeta" src="./public/img/EstructuraDeCarpeta.png">
+### Esto son los estilos generales:
 
+Paleta de colores:
+   - Amarillo: #EAC926;
+   - Azul: #03264C;
+   - Celeste: #1259c3;
+   - Gris oscuro: #666;
+   - Gris claro: #ebebeb;
+   - Verde: #39b54a;
 
-## Desafio 2 - Crear un archivo home.html, el archivo debera tener las siguientes secciones:
+Tipografía:
+   - Familia: 'Roboto'
 
-- header
-- main
-- footer
+Tamaño de tipografia:
+   - Cuerpos de texto: 12px
+   - Titulares (Basado en tu última visita/Ofertas): 24px
+   - Precios: 18px
+   - Descuentos: 16px
+   - Descripciones: 16px
 
-### header debera tener:
-- Logo.
-- Lugar para poner la barra de busqueda.
-- Comprá en cuotas y sin tarjeta de crédito.
-- Barra de navegación que posea las siguientes opciones:
-     - Ofertas.
-     - Tiendas Oficiales.
-     - Vender.
-     - Ayuda.
+Íconos:
 
-     - Creá tu cuenta.
-     - Ingresá.
-     - Mis compras.
+ - Vamos a usar los íconos de esta pagína : https://fontawesome.com/icons?d=gallery&m=free
 
-**********************************************************************************************
-- Mockup del desafio:
+**************************************************************
 
-<img alt="Mockup del primer Desafio" src="./public/img/Mockup-estructuraDeUnSitioWeb.png">
+- Mockup del primer desafío
 
-***********************************************************************************************
+<img alt="Mockup del primer desafio" src="./public/img/mockup-agregando-estilos.png">
 
-### main (productos) debera tener:
-- Sección: Basado en tu última visita:
-     - imagen de la cafetera
-     - $6.770
-     - 40% OFF
-     - Cafetera Moulinex
+## Desafío 2 - Implementar un "Menú de hamburguesa"
 
-     - imagen de MacBook
-     - $230.000
-     - 20% off
-     - MacBook Pro 2019
-
-     - imagen del Samsung Galaxy
-     - $70.500
-     - 10% off
-     - Samsung Galaxy S10
-
-     - imagen del SmartTv
-     - $23.200
-     - 5% off
-     - SmartTv Samsung 43"
-- Sección de Ofertas
-     - imagen de la cafetera
-     - $6.770
-     - 40% off
-     - Cafetera Moulinex
-
-     - imagen de MacBook
-     - $230.000
-     - 20% off
-     - MacBook Pro 2019
-
-     - imagen Samsung
-     - $70.500
-     - 10% off
-     - Samsung Galaxy S10
-
-     - imagen SmarTv
-     - $23.200
-     - 5% off
-     - SmartTv Samsung 43"
-
-************************************************************************************************
-- Mockup del desafio:
-
-<img alt="Mockup del primer Desafio" src="./public/img/mockup-estructuraDeUnSitioWeb-2.png">
+### necesitamos agregar estilos para que se vea igual que el mockup de arriba
 
 
-## Desafio 3 - Footer (pie de pagina).
+**************************************************************
 
-### Footer (pie de pagina) debera tener:
-- Pagá con tarjeta o en efectivo
-Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-puntos de pago. ¡Y siempre es seguro!
+## Desafío 3 - Darle estilos con CSS al Footer
 
-- Envío gratis desde $ 2.500
-Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-productos. Es un beneficio de Mercado Puntos. 
+- El contenido de todos los artículos está centrado.
+- Los íconos tienen un tamaño de 2em y un margen inferior de separación de 10
+píxeles.
 
-- Seguridad, de principio a fin
-¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-porque estás siempre protegid@.
+**************************************************************
 
-- Copyright © 1999-2020 MercadoLiebre S.R.L.
+- Mockup del desafío
 
-************************************************************************************************
-- Mockup del desafio:
+<img alt="Mockup del segundo desafio" src="./public/img/mockup-agregando-estilos-2.png">
 
-<img alt="Mockup del primer Desafio" src="./public/img/mockup-estructuraDeUnSitioWeb-3.png">
 
-*************************************************************************************************
+## Resultado en esta etapa del trabajo practico: 
+
+<img alt="Mockup del segundo desafio" src="./public/img/mockup-agregando-estilos-3.png">
