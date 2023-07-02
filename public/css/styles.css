@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  /* Colores de la paleta */
+  --colorAmarillo: #eac926;
+  --colorAzul: #03264c;
+  --colorCeleste: #1259c3;
+  --colorGrisOscuro: #666;
+  --colorGrisClaro: #ebebeb;
+  --colorVerde: #39b54a;
+
+  /* Tipografia */
+  --tipografia: "Roboto", sans-serif;
+
+  /* Tamaño de tipografia*/
+  --textos: 12px;
+  --titulos: 24px;
+  --precios: 18px;
+  --descuentos: 16px;
+  --descripcion: 16px;
+}
+
+* {
+  font-family: var(--tipografia);
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  font-size: var(--textos);
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+
+p {
+  font-size: var(--textos);
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--colorGrisClaro);
+}
+
+/* HEADER */
+
+.home__header {
+  background-color: var(--colorAmarillo);
+}
+
+.home__header__logo {
+  width: 130px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.home__header__busqueda {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.home__header__busqueda {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home__header__busqueda-barra {
+  width: 60%;
+}
+
+.home__header__p-pagos {
+  text-align: center;
+}
+
+.home__header__nav-menu {
+  margin-top: 15px;
+}
+
+.home__header__nav-menu-superior {
+  margin-bottom: 20px;
+}
+
+.home__header__nav-menu-inferior {
+  margin-bottom: 20px;
+}
+
+.home__header__nav-burger-menu{
+    padding-bottom: 20px;
+}
+
+.home__header__div__burger-menu {
+  background-color: var(--colorCeleste);
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+
+/* FOOTER */
+
+.home__footer {
+    padding: 32px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+
+.home__footer-article{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.home__footer i {
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.home__footer-copyright {
+    margin-left: -20px;
+    font-size: var(--textos);
+}
