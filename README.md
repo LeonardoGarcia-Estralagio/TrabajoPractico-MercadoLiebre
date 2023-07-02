@@ -16,7 +16,7 @@ Este trabajo práctico estará dividido en varias etapas, cada una de ellas en u
 
 - [Armado de estructura web](https://github.com/LeonardoGarcia-Estralagio/TrabajoPractico-MercadoLiebre/tree/armado-de-estructura-web)
 
-- [Agregando estilos] (https://github.com/LeonardoGarcia-Estralagio/TrabajoPractico-MercadoLiebre/tree/agregando-estilos)
+- [Agregando estilos](https://github.com/LeonardoGarcia-Estralagio/TrabajoPractico-MercadoLiebre/tree/agregando-estilos)
 
 Cada rama representará una etapa del desarrollo del proyecto y contendrá el código correspondiente a esa etapa específica.
 
