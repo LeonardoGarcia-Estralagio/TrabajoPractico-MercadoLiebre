@@ -199,11 +199,14 @@ body {
   .home__header__div__burger-menu{
     display: none;
   }
+  .home__header__busqueda-barra {
+    width: 30%;
+  }
+  /* MAIN TABLET Y DESKTOP */
+
   .home__main__section-productos-descripcion h5 {
     display: inherit;
   }
-
-  /* MAIN TABLET Y DESKTOP */
 
   .home__main__section-productos {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);;
