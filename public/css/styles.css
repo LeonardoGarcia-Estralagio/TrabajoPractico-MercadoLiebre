@@ -187,7 +187,7 @@ body {
 
 /* TABLET Y DESKTOP */
 
-@media(min-width: 361px){
+@media(min-width: 768px){
   /* HOME TABLET Y DESKTOP */
   .home__header__nav-menu-superior {
     display: inherit;
