@@ -21,10 +21,10 @@
 }
 
 * {
-  font-family: var(--tipografia);
-  box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
+  font-family: var(--tipografia);
+  box-sizing: border-box;
 }
 
 h3 {
@@ -38,7 +38,6 @@ a {
   color: black;
   text-decoration: none;
 }
-
 
 p {
   font-size: var(--textos);
@@ -56,23 +55,45 @@ body {
 
 .home__header {
   background-color: var(--colorAmarillo);
+  padding: 25px 0;
 }
 
+
 .home__header__logo {
-  width: 130px;
-  margin-left: 30px;
-  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.home__header__logo a{
+  width: 50%;
+  padding: 15px;
+
 }
 
 .home__header__busqueda {
-  margin-top: 8px;
+  width: 50%;
   margin-bottom: 10px;
-  margin-left: 15px;
+  margin-top: 10px;
+  padding: 10px;
 }
 
-.home__header__busqueda-barra {
+.home__header__busqueda input {
+  width: 90%;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px;
+}
+
+.home__header__busqueda button {
   background-color: white;
-  width: 60%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -15px;
+  padding: 5px;
 }
 
 .home__header__p-pagos {
@@ -93,8 +114,9 @@ body {
   margin-bottom: 20px;
 }
 
-.home__header__nav-burger-menu{
-    padding-bottom: 20px;
+.home__header__nav-burger-menu {
+  display: flex;
+  justify-content: center;
 }
 
 .home__header__div__burger-menu {
@@ -115,28 +137,45 @@ body {
   margin: 0 auto;
 }
 
+.home__main-banner {
+  width: 100%;
+}
+
 .home__main__section {
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 15px;
 }
+
 .home__main__section-productos {
   margin: 10px auto 0px;
+}
+
+.home__main__section-productos img {
+  width: 100%;
 }
 
 .home__main__section-productos-descripcion {
   border-top: solid 1px var(--colorGrisClaro);
   background-color: white;
   padding: 15px;
+  position: relative;
+  gap: 2%;
 }
 
 .home__main__section-productos-descripcion i {
+  display: block;
+  background-color: white;
   color: var(--colorVerde);
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 50%;
-  padding: 4px;
+  padding: 5px;
   border: solid 1px var(--colorVerde);
-  width: 2rem;
-  height: 2rem;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
 .precio {
@@ -155,61 +194,116 @@ body {
   font-size: var(--descripcion);
 }
 
-
-
 /* FOOTER */
 
 .home__footer {
-    padding: 32px;
-    padding-top: 50px;
-    padding-bottom: 15px;
-    background-color: #fff;
+  padding: 32px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  background-color: #fff;
 }
 
-.home__footer-article{
-    text-align: center;
-    margin-bottom: 50px;
+.home__footer-article {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .home__footer i {
-    color: var(--colorCeleste);
-    font-size: 2em;
-    margin-bottom: 10px;
+  color: var(--colorCeleste);
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
 .home__footer-copyright {
-    margin-left: -20px;
-    font-size: var(--textos);
+  margin-left: -20px;
+  font-size: var(--textos);
 }
-
 
 /* PUNTOS DE CORTE */
 
 /* TABLET Y DESKTOP */
 
-@media(min-width: 768px){
-  /* HOME TABLET Y DESKTOP */
+@media (min-width: 768px) {
+  /* HOME TABLET*/
+
+  .home__header__logo a {
+    width: 100%;
+  }
+
+  .home__header__container-desktop-tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__header__busqueda {
+    width: 100%;
+    padding: 30px 0 20px;
+  }
+
+  .home__header__p-pagos {
+    width: 45%;
+  }
+
+  .home__header__nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
   .home__header__nav-menu-superior {
     display: inherit;
+    margin: 0;
   }
-  
+
+  .home__header__nav-menu-superior li {
+    padding: 0 10px;
+  }
+
   .home__header__nav-menu-inferior {
     display: inherit;
+    margin: 0;
   }
-  .home__header__div__burger-menu{
+
+  .home__header__nav-menu-inferior li {
+    padding: 0 10px;
+  }
+
+  .home__header__div__burger-menu {
     display: none;
   }
   .home__header__busqueda-barra {
     width: 30%;
   }
-  /* MAIN TABLET Y DESKTOP */
+  /* MAIN TABLET */
+
+  .home__main__container-productos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home__main__section h3 {
+    margin: 25px 30px;
+  }
 
   .home__main__section-productos-descripcion h5 {
     display: inherit;
   }
 
   .home__main__section-productos {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);;
+    width: 40%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
-  
+
+  .home__main__section-productos-descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:1024px){
+  .home__main__section-productos {
+    width: 20%;
+  }
 }
