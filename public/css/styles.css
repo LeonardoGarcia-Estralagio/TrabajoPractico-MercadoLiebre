@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url(forms.css);
 
 :root {
   /* Colores de la paleta */
@@ -305,5 +306,17 @@ body {
 @media (min-width:1024px){
   .home__main__section-productos {
     width: 20%;
+  }
+
+  .home__header__busqueda {
+    padding: 55px 0 20px;
+  }
+
+  .home__header__nav-menu-superior li a {
+    font-size: 1.5rem;
+  }
+
+  .home__header__nav-menu-inferior li a {
+    font-size: 1.5rem;
   }
 }

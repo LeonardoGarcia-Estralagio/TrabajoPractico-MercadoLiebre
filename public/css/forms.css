@@ -1,0 +1,85 @@
+.register__main h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.register__main__form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+  padding: 10px;
+  border-top: 1px solid var(--colorAmarillo);
+}
+
+.register__main__form-div {
+  margin: 10px 0;
+}
+
+.register__main__form-div-p {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.register__main__form-div-intereses {
+  margin-top: 10px;
+}
+
+.register__main__form-label-radiocheck {
+  margin-right: 8px;
+}
+
+.register__main__form-div input {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+}
+
+.register__main__form-div input:focus {
+  box-shadow: 0px 0px 5px var(--colorCeleste);
+  outline: none;
+}
+
+.register__main__form-div-span {
+  color: red;
+  display: none;
+}
+
+.register__main__form-div select {
+  margin: 10px 0;
+}
+
+.register__main__form-div-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.register__main__form-button-submit {
+  background-color: var(--colorCeleste);
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.register__main__form-button-reset {
+  background-color: var(--colorCeleste);
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.login__main__form-button-submit {
+  background-color: var(--colorCeleste);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
