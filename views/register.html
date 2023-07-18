@@ -23,7 +23,7 @@
                         <button type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
-                
+
             </div>
 
             <p class="home__header__p-pagos"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
@@ -39,7 +39,7 @@
             </ul>
             <ul class="home__header__nav-menu-inferior">
                 <li><a href="register">Creá tu cuenta</a> <i class="fa-regular fa-address-card"></i></li>
-                <li><a href="#">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="login">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
                 <li><a href="#">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
             </ul>
         </nav>
@@ -51,62 +51,84 @@
 
     </header>
     <main class="register__main">
-        <form action="register.html" method="POST">
-            <!-- NOMBRE Y APELLIDO -->
-            <div>
-                <input type="text" placeholder="Nombre y Apellido" name="NombreYApellido" >
-                <span>Debe ingresar su Nombre y Apellido</span>
+        <h2>Creá tu cuenta</h2>
+        <form action="register.html">
+            <div class="register__main__form">
+                <div class="register__main__form-div">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nombre y Apellido*" id="name" name="name">
+                    <span class="register__main__form-div-span">*Debe ingresar su nombre y apellido</span>
+                </div>
+                <div class="register__main__form-div">
+                    <label for="nick"></label>
+                    <input type="text" placeholder="Nombre de usuario*" id="nick" name="nick">
+                    <span class="register__main__form-div-span">*Debe ingresar su nombre de usuario</span>
+                </div>
+                <div class="register__main__form-div">
+                    <p class="register__main__form-div-p">Fecha De nacimiento</p>
+                    <label for="birthday"></label>
+                    <input type="date" id="birthday" name="birthday">
+                    <span class="register__main__form-div-span">*Ingrese su fecha de nacimiento</span>
+                </div>
+                <div class="register__main__form-div">
+                    <label for="Domicilio"></label>
+                    <input type="text" placeholder="Domicilio*" id="Domicilio" name="Domicilio">
+                    <span class="register__main__form-div-span">*Debe ingresar su domicilio</span>
+                </div>
+                <div>
+                    <p class="register__main__form-div-p">Perfil de usuario*</p>
+                    <div>
+                        <label class="register__main__form-label-radiocheck" for="flexCheckDefault">
+                            Comprador
+                        </label>
+                        <input type="radio" value="" id="comprador" name="preference">
+
+                        <label class="register__main__form-label-radiocheck" for="flexCheckDefault">
+                            Vendedor
+                        </label>
+                        <input type="radio" value="" id="vendedor" name="preference">
+                        <span class="register__main__form-div-span">*Debe elegir una opcion</span>
+                    </div>
+                </div>
+                <div class="register__main__form-div-intereses">
+                    <p class="register__main__form-div-p">Intereses</p>
+                    <div>
+                        <input type="checkbox" name="intereses" value="Electro">
+                        <label for="Electro">Electro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="intereses" value="Moda">
+                        <label for="Moda">Moda</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="intereses" value="Hogar">
+                        <label for="Hogar">Hogar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="intereses" value="Jugeteria">
+                        <label for="Jugeteria">Jugeteria</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="intereses" value="Vida sana">
+                        <label for="Vida sana">Vida sana</label>
+                    </div>
+                </div>
+                <div class="register__main__form-div">
+                    <label for="password"></label>
+                    <input type="password" placeholder="Contraseña*" id="password" name="password">
+                    <span class="register__main__form-div-span">*Debe ingresar su Contraseña</span>
+                </div>
+                <div class="register__main__form-div">
+                    <label for="password2"></label>
+                    <input type="password" placeholder="Confirmar contraseña*" id="password2" name="password2">
+                    <span class="register__main__form-div-span">*Contraseña no coincide con la anterior</span>
+                </div>
+                <div class="register__main__form-div-button">
+                    <input class="register__main__form-button-reset" type="reset" value="Borrar">
+                    <input class="register__main__form-button-submit" type="submit" value="Enviar">
+                </div>
             </div>
-            <!-- NOMBRE DE USUARIO -->
-            <div>
-                <input type="text" placeholder="Nombre de usuario" name="NombreDeusuario">
-                <span>Debe ingresar su Nombre de usuario</span>
-            </div>
-            <!-- FECHA DE NACIMIENTO -->
-            <div>
-                <p>Fecha De nacimiento</p>
-                <input type="date" placeholder="Fecha de nacimiento" name="FechaDeNacimiento">
-                <span>Debe ingresar su Nombre de usuario</span>
-            </div>
-            <!--   DOMICILIO -->
-            <div>
-                <input type="text" placeholder="Domicilio" name="Domicilio">
-                <span>Debe ingresar su Domicilio</span>
-            </div>
-            <!-- PERFIL DE USUARIO -->
-            <div>
-                <p>Perfil de usuario</p>
-                <label for="comprador">Comprador</label>
-                <input type="radio" name="comprador" id="comprador" value="comprador">
-                <label for="vendedor">Vendedor</label>
-                <input type="radio" name="vendedor" id="vendedor" value="vendedor">
-            </div>
-            <!-- CATEGORIAS DE INTERES -->
-            <div>
-                <label for="intereses">Intereses</label>
-                <select name="intereses" id="intereses">
-                    <option value="Electro">Electro</option>
-                    <option value="Moda">Moda</option>
-                    <option value="Hogar">Hogar</option>
-                    <option value="Jugeteria">Jugeteria</option>
-                    <option value="Vida sana">Vida sana</option>
-                </select>
-            </div>
-            <!-- CONTRASEÑA -->
-            <div>
-                <input type="password" placeholder="Contraseña" name="password">
-                <span>Debe ingresar su Contraseña</span>
-            </div>
-            <!-- CONFIRMAR CONTRASEÑA -->
-            <div>
-                <input type="password" placeholder="Confirmar Contraseña" name="password">
-                <span>Confirmar Contraseña</span>
-            </div>
-            <!-- BOTON ENVIAR Y BORRAR -->
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-            </div>
+
         </form>
     </main>
     <footer class="home__footer">
