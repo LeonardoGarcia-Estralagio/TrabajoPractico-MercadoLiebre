@@ -1,52 +1,42 @@
-# Trabajo Practico - Mercado Liebre - Posicionamiento avanzado FlexBox
+# Trabajo Practico - Mercado Liebre - Formularios
 
-## Desafío 1 - Desarrollar la caja de productos con FlexBox
+## Desafío 1 - Crear Formulario de registro de usauario
 
-### Para cada uno de los artículos debemos:
+### El formulario para ingresar un nuevo usuario a nuestro sistema se mostrará cuando seleccionemos la opción <img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-boton-crear-cuenta.png">. Este deberá contar con la siguiente información:
 
-- Lograr que el precio y el descuento de los artículos estén en el mismo
-  renglón, donde el precio ocupa el 30% y el descuento el 70% del total del
-  renglón.
+- Registro de Usuario (register.html ):
+
+  - Nombre y apellido
+  - Nombre de usuari@
+  - Fecha de nacimiento
+  - Domicilio
+  - Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
+  - Contraseña
+  - Confirmar contraseña
+  - Botón de enviar que nos lleve a la página principal
+  - Botón de borrar todos los datos del formulario
+- Categorías de interés (puede elegir más de una):
+  - Electro
+  - Moda
+  - Hogar
+  - Juguetería
+  - Vida sana
+----
+- mockup del desafio:
+<img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios.png">
 
 ---
-
-- mockup del desafío
-
- <img alt="Mockup del segundo desafio" src="./public/img/mockup-posicionamiento-flexbox.png">
  
-## Desafío 2 - Desarrollar Home con FlexBox
+## Desafío 2 - Crear Formulario de Login
 
-- Nuestro nuevo desafío es desarrollar la Home utilizando Flexbox, teniendo en cuenta que
-  el sitio debe ser 100% responsive. Qué debemos modificar para que, aplicando Flexbox,
-  solo se vea un artículo si estamos en mobile, dos artículos para tablet y cuatro artículos
-  para la versión desktop
+### El formulario para ingresar al sitio se mostrará cuando seleccionemos la opción <img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-boton-ingresar.png"> . Este deberá contar con la siguiente información:
 
+- Login de Usuario (login.html ):
+  - Nombre de usuari@
+  - Contraseña
+  - Botón de enviar que nos lleve a la página principal
 ---
 
-## Desafío 3 - Desarrollar Header con FlexBox
+- mockup del desafio:
 
-- Encabezado: nos piden que la primera parte del encabezado quede de la siguiente
-manera:
-
-   - Logo: tiene que medir el 50% de su contenedor.
-   - Barra de búsqueda: tiene que medir el 50% de su contenedor.
-
-
----
-
-- Mockup del desafío
-
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-posicionamiento-flexbox-2.png">
-
-
--------------------
-- Para dispositivos con resoluciones igual o superior a una tablet, el header debe visualizarse de
-la siguiente manera:
-
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-posicionamiento-flexbox-3.png">
-
-## Resultados en esta etapa del trabajo practico:
-
-
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-posicionamiento-flexbox-4.png">
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-posicionamiento-flexbox-5.png">
+<img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-2.png">
