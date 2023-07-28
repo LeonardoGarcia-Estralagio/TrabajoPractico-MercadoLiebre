@@ -313,10 +313,14 @@ body {
   }
 
   .home__header__nav-menu-superior li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .home__header__nav-menu-inferior li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .home__header__p-pagos {
+    font-size: 1rem;
   }
 }
