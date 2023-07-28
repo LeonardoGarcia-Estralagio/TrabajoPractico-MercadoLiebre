@@ -59,7 +59,6 @@ body {
   padding: 25px 0;
 }
 
-
 .home__header__logo {
   display: flex;
   justify-content: space-between;
@@ -67,10 +66,9 @@ body {
   margin-bottom: 10px;
 }
 
-.home__header__logo a{
+.home__header__logo a {
   width: 50%;
   padding: 15px;
-
 }
 
 .home__header__busqueda {
@@ -149,6 +147,7 @@ body {
 }
 
 .home__main__section-productos {
+  background-color: white;
   margin: 10px auto 0px;
 }
 
@@ -179,19 +178,38 @@ body {
   top: -15px;
 }
 
+.home__main__section-productos-descripcion i:hover {
+  animation: rotate 2s ease;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-90deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .precio {
   font-size: var(--precios);
   font-weight: bold;
+  width: 60%;
 }
 
 .descuento {
   color: var(--colorVerde);
   font-size: var(--descuentos);
+  width: 30%;
 }
 
 .home__main__section-productos-descripcion h5 {
   display: none;
-  padding-top: 1.5rem;
   font-size: var(--descripcion);
 }
 
@@ -246,7 +264,7 @@ body {
     width: 45%;
   }
 
-  .home__header__nav-menu{
+  .home__header__nav-menu {
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -287,23 +305,32 @@ body {
     margin: 25px 25px;
   }
 
-  .home__main__section-productos-descripcion h5 {
-    display: inherit;
+  .home__main__section-productos {
+    width: 45%;
   }
 
-  .home__main__section-productos {
-    width: 40%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  .home__main__section-productos:hover {
+    box-shadow: 0px 0px 15px rgb(100, 100, 100);
+  }
+
+  .home__main__section-productos-descripcion h5 {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+
+  .home__main__section-productos:hover h5 {
+    height: 20px;
   }
 
   .home__main__section-productos-descripcion {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 }
 
-@media (min-width:1024px){
+@media (min-width: 1024px) {
   .home__main__section-productos {
     width: 20%;
   }
@@ -312,11 +339,23 @@ body {
     padding: 55px 0 20px;
   }
 
+  .home__header__p-pagos {
+    font-size: 1rem;
+  }
+
   .home__header__nav-menu-superior li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .home__header__nav-menu-inferior li a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .home__footer-div {
+    display: flex;
+  }
+
+  .home__footer-article i:hover {
+    color: var(--colorAmarillo)
   }
 }
