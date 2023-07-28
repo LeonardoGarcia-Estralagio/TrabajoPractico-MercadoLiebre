@@ -24,6 +24,8 @@ Este trabajo práctico estará dividido en varias etapas, cada una de ellas en u
 
 - [Formularios](https://github.com/LeonardoGarcia-Estralagio/TrabajoPractico-MercadoLiebre/tree/formularios)
 
+- [Organizando elementos](https://github.com/LeonardoGarcia-Estralagio/TrabajoPractico-MercadoLiebre/tree/organizando-elementos)
+
 Cada rama representará una etapa del desarrollo del proyecto y contendrá el código correspondiente a esa etapa específica.
 
 ## Tecnologías utilizadas
