@@ -1,42 +1,35 @@
-# Trabajo Practico - Mercado Liebre - Formularios
+# Trabajo Practico - Mercado Liebre - Origanizando Elementos
 
-## Desafío 1 - Crear Formulario de registro de usauario
+## Desafío 1 - Reorganizar el código y mejorar aspecto visual de la página
 
-### El formulario para ingresar un nuevo usuario a nuestro sistema se mostrará cuando seleccionemos la opción <img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-boton-crear-cuenta.png">. Este deberá contar con la siguiente información:
+- Para cada uno de los artículos:
+  - Nos piden que la descripción del producto esté oculta, a menos que los usuarios
+    le pasen el mouse por arriba.
+  - Además, nos piden que cuando los usuarios le pasen el mouse por arriba, se visualice la sombra de la tarjeta de producto.
+  - Otro efecto que nos piden es el que podemos ver en las siguientes imágenes, donde el ícono del camión de envío gira 90° hacia arriba suavemente cuando pasamos el mouse por encima.
 
-- Registro de Usuario (register.html ):
 
-  - Nombre y apellido
-  - Nombre de usuari@
-  - Fecha de nacimiento
-  - Domicilio
-  - Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
-  - Contraseña
-  - Confirmar contraseña
-  - Botón de enviar que nos lleve a la página principal
-  - Botón de borrar todos los datos del formulario
-- Categorías de interés (puede elegir más de una):
-  - Electro
-  - Moda
-  - Hogar
-  - Juguetería
-  - Vida sana
-----
 - mockup del desafio:
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios.png">
+  <img alt="Mockup del segundo desafio" src="./public/img/mockup-organizando-elementos.png">
 
 ---
- 
-## Desafío 2 - Crear Formulario de Login
 
-### El formulario para ingresar al sitio se mostrará cuando seleccionemos la opción <img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-boton-ingresar.png"> . Este deberá contar con la siguiente información:
+## Desafío 2 - Color de fondo de botones de login
 
-- Login de Usuario (login.html ):
-  - Nombre de usuari@
-  - Contraseña
-  - Botón de enviar que nos lleve a la página principal
+- En nuestro login.html debemos lograr que cuando el mouse esté por encima del botón
+de envío del formulario, su color de fondo cambie a #0022AA.
+
+
 ---
+
+## Desafío 3 - Reorganizar Footer
+
+
+- Repasando todo lo aprendido en Flexbox, debemos modificar el footer para que se
+visualice de la siguiente forma en dispositivos desktop. Además, cada vez que se pase el
+mouse por los íconos, estos deben cambiar de color
+
 
 - mockup del desafio:
 
-<img alt="Mockup del segundo desafio" src="./public/img/mockup-formularios-2.png">
+<img alt="Mockup del segundo desafio" src="./public/img/mockup-organizando-elementos-2.png">
